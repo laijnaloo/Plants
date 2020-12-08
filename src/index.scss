@@ -1,0 +1,56 @@
+@import "./assets/variables.scss";
+
+@font-face {
+  font-family: "MetropolisLight";
+  src: url("/public/Metropolis-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamBook";
+  src: url("/public/HomepageBaukasten-Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamBold";
+  src: url("/public/HomepageBaukasten-Bold.otf") format("opentype");
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.darkText {
+  color: $dark-green;
+}
+
+.lightText {
+  color: $light-green;
+}
+
+h1 {
+  font-family: "GothamBold";
+  font-size: 24px;
+  margin: 4px 0;
+}
+
+h2 {
+  font-family: "GothamBold";
+  font-size: 20px;
+  margin: 4px 0;
+}
+
+p {
+  font-family: "GothamBook";
+  font-size: 14px;
+
+  margin: 4px 0;
+}

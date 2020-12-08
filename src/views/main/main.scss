@@ -1,0 +1,40 @@
+@import "../../assets/variables.scss";
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .intro {
+    margin-bottom: 32px;
+  }
+
+  .header {
+    position: fixed;
+    top: 0;
+    background-color: $white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 70px;
+
+    font-family: "GothamBook";
+  }
+
+  .content {
+    width: 100%;
+    margin: 86px 16px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .mainContainer {
+    .content {
+      width: 1000px;
+    }
+  }
+}
